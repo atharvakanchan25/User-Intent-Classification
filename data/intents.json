@@ -1,0 +1,174 @@
+{
+  "intents": [
+    {
+      "id": "password_reset",
+      "label": "Password Reset",
+      "description": "User wants to reset or recover their password",
+      "examples": [
+        "I forgot my password",
+        "How do I reset my password?",
+        "Can you help me recover my account password?",
+        "I can't login, I need to reset my password",
+        "Password recovery assistance needed",
+        "I locked myself out of my account",
+        "Send me a password reset link",
+        "I don't remember my login credentials",
+        "My password is not working",
+        "How to change forgotten password?"
+      ]
+    },
+    {
+      "id": "billing_inquiry",
+      "label": "Billing Inquiry",
+      "description": "User has questions about billing, invoices, or payments",
+      "examples": [
+        "I was charged twice this month",
+        "Can I get a copy of my invoice?",
+        "Why is my bill so high?",
+        "I want to update my payment method",
+        "When will my next payment be due?",
+        "I need a refund for my last transaction",
+        "Where can I see my billing history?",
+        "My credit card was declined",
+        "I want to cancel my subscription",
+        "How do I apply a promo code?"
+      ]
+    },
+    {
+      "id": "technical_support",
+      "label": "Technical Support",
+      "description": "User is experiencing a technical issue or bug",
+      "examples": [
+        "The app keeps crashing on my phone",
+        "I'm getting a 500 error on the dashboard",
+        "Feature X is not working properly",
+        "The website is loading very slowly",
+        "I can't upload my file, getting an error",
+        "My account shows incorrect data",
+        "The API is returning unexpected results",
+        "Error code 404 when trying to access page",
+        "Notifications are not showing up",
+        "The integration with Slack is broken"
+      ]
+    },
+    {
+      "id": "account_management",
+      "label": "Account Management",
+      "description": "User wants to manage or update their account settings",
+      "examples": [
+        "I want to update my email address",
+        "How do I change my username?",
+        "Can I add another user to my account?",
+        "I want to delete my account",
+        "How do I upgrade my plan?",
+        "I need to transfer my account to another person",
+        "How do I enable two-factor authentication?",
+        "Change my notification preferences",
+        "Update my profile picture",
+        "How do I link my Google account?"
+      ]
+    },
+    {
+      "id": "product_inquiry",
+      "label": "Product Inquiry",
+      "description": "User wants information about products, features, or pricing",
+      "examples": [
+        "What features does the premium plan include?",
+        "How much does your enterprise plan cost?",
+        "Is there a free trial available?",
+        "What is the difference between basic and pro plans?",
+        "Do you support API integrations?",
+        "What programming languages do you support?",
+        "Does your product work on mobile?",
+        "What is your uptime SLA?",
+        "Can I export my data?",
+        "Is there a desktop application?"
+      ]
+    },
+    {
+      "id": "order_tracking",
+      "label": "Order Tracking",
+      "description": "User wants to track or inquire about their order",
+      "examples": [
+        "Where is my order?",
+        "When will my package arrive?",
+        "I haven't received my delivery yet",
+        "Can I change my delivery address?",
+        "My order was marked delivered but I didn't receive it",
+        "How do I track my shipment?",
+        "I want to cancel my order",
+        "When will my order be shipped?",
+        "I received the wrong item",
+        "My package arrived damaged"
+      ]
+    },
+    {
+      "id": "general_greeting",
+      "label": "General Greeting",
+      "description": "User is greeting or starting a conversation",
+      "examples": [
+        "Hello",
+        "Hi there",
+        "Good morning",
+        "Hey, I need some help",
+        "Hi, can you assist me?",
+        "Hello, is anyone there?",
+        "Good evening",
+        "Hey",
+        "Greetings",
+        "Hi, I have a question"
+      ]
+    },
+    {
+      "id": "complaint",
+      "label": "Complaint",
+      "description": "User is expressing dissatisfaction or filing a complaint",
+      "examples": [
+        "I am very unhappy with the service",
+        "This is unacceptable, I want to speak to a manager",
+        "Your product is terrible",
+        "I've been waiting for 2 weeks with no response",
+        "This is the worst customer service I have ever experienced",
+        "I'm extremely frustrated",
+        "I want to file a formal complaint",
+        "You ruined my experience",
+        "I'm going to leave a bad review",
+        "This is not what I was promised"
+      ]
+    },
+    {
+      "id": "feature_request",
+      "label": "Feature Request",
+      "description": "User is requesting a new feature or improvement",
+      "examples": [
+        "Can you add dark mode?",
+        "It would be great to have bulk export",
+        "Please add support for CSV imports",
+        "Can you integrate with Zapier?",
+        "I would love a mobile app",
+        "Please add keyboard shortcuts",
+        "Can you add multi-language support?",
+        "I want to be able to schedule reports",
+        "Please add a drag and drop interface",
+        "Can you support SSO login?"
+      ]
+    },
+    {
+      "id": "escalation",
+      "label": "Escalation",
+      "description": "User wants to escalate the issue to a human agent",
+      "examples": [
+        "I want to speak to a human",
+        "Connect me to a real agent please",
+        "Let me talk to your supervisor",
+        "I need to speak with someone from your team",
+        "Transfer me to customer support",
+        "I don't want to talk to a bot",
+        "Can I have a callback?",
+        "Get me a live representative",
+        "I need human assistance",
+        "Please escalate this issue"
+      ]
+    }
+  ]
+}

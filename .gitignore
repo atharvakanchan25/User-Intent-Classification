@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+venv/
+.venv/
+env/
+.env
+
+# Model weights (large binary files — download/train locally)
+models/intent_classifier/pytorch_model.bin
+models/intent_classifier/model.safetensors
+models/intent_classifier/tf_model.h5
+
+# Training artifacts
+data/processed/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
